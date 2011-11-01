@@ -1,0 +1,26 @@
+gem install twitter
+
+Search only withing certain areas:
+http://rubydoc.info/gems/twitter/1.7.2/Twitter/Search#geocode-instance_method
+
+Translate London and Exeter into geocodes:
+http://code.google.com/apis/maps/documentation/geocoding/#GeocodingResponses
+
+London: 51.50015240,  -0.12623620
+Exeter: 50.72179999999999, -3.5336170
+
+Download dictionary (Word List Collection)
+http://sourceforge.net/projects/wordlist/files/Hunspell%20en_US/7.1-0/hunspell-en_US-7.1-0.zip/download
+
+This dictionary has a strange form:
+Americanize/DSG
+Amerind/SM
+Amerindian/SM
+(will need to split it based upon regex)
+
+
+
+Alternative approach - use Google API
+http://code.google.com/p/google-api-ruby-client/#Google_Translate_API
+
+At this time of the day (night) I do prefer simplier, brute force approach :)
